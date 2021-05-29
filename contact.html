@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>ONLINE_BOOK</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header id="home" class="header contact">
+      <nav class="nav">
+        <div class="navigation container">
+          <div class="logo">
+            <a href="index.html">
+              <h1>online<span>BOOKS</span></h1>
+            </a>
+          </div>
+
+          <div class="menu">
+            <div class="top-nav">
+              <div class="logo">
+                <h1>online<span>BOOKS</span></h1>
+              </div>
+              <div class="close">
+                <i class="bx bx-x"></i>
+              </div>
+            </div>
+
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link scroll-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="./book_buy.html" class="nav-link scroll-link">
+                  Books for Buy
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="./book_rent.html" class="nav-link scroll-link">
+                  Novels for Rent
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="./contact.html" class="nav-link scroll-link">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hamburger">
+            <!-- <i class="bx bx-menu"></i> -->
+            <div class="line one"></div>
+            <div class="line two"></div>
+            <div class="line three"></div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="title t3">
+        <h2 class="titletext">Contact Us</h2>
+        <p>contact us for more imformation...</p>
+      </div>
+      <section class="Contact" id="contact">
+        <div class="contact-container">
+          <div class="contactform">
+            <form name="Contact" method="POST" data-netlify="true">
+              <h3>Add Details</h3>
+              <div class="inputbox">
+                <h4>Name</h4>
+                <input type="text" name="Name" required />
+              </div>
+              <div class="inputbox">
+                <h4>Contact Number</h4>
+                <input type="number" name="Contact Number" required />
+              </div>
+              <div class="inputbox">
+                <h4>Book/Novel Name</h4>
+                <input type="text" name="Book Name" required />
+              </div>
+              <div class="inputbox radio">
+                <h4>For</h4>
+                <div class="content">
+                  <div class="one">
+                    <input type="radio" name="for" id="buy" value="buy" />
+                    <label for="buy">Buy</label>
+                  </div>
+                  <div class="two">
+                    <input type="radio" name="for" id="rent" value="rent" />
+                    <label for="rent">Rent(Novels only)</label>
+                  </div>
+                </div>
+              </div>
+              <div class="inputbox">
+                <h4>Address</h4>
+                <textarea cols="10" rows="3" name="Address" required></textarea>
+              </div>
+              <div class="inputbox">
+                <input type="submit" class="btn" value="Submit" />
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="contact-details">
+          <i class="fa fa-phone"></i>
+          <i class="fa fa-whatsapp"></i>
+         
+          <h3>+917576844867</h3>
+          <h3>+918011098876</h3>
+        </div>
+      </section>
+    </header>
+    <footer>
+      <div class="footer-copy">
+        <p>&copy;2021, Online Book Store; All Rights Reserved</p>
+      </div>
+    </footer>
+  </body>
+  <script src="app.js"></script>
+</html>
